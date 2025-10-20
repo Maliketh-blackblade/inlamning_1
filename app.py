@@ -8,8 +8,8 @@ app.secret_key = 'secret_key'  # TODO: Ändra detta till en slumpmässig hemlig 
 # Databaskonfiguration
 DB_CONFIG = {
     'host': 'localhost',
-    'user': 'admin',  # Ändra detta till ditt MySQL-användarnamn
-    'password': '3615',  # Ändra detta till ditt MySQL-lösenord
+    'user': 'root',  # Ändra detta till ditt MySQL-användarnamn
+    'password': '',  # Ändra detta till ditt MySQL-lösenord
     'database': 'inlamning_1'  # TODO: Ändra detta till ditt databasnamn
 }
 
