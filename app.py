@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, session
+from flask import Flask, render_template, request, session, flash
 import mysql.connector
 from mysql.connector import Error
 
@@ -51,7 +51,8 @@ def login():
                 return f'Inloggning lyckades! Välkommen {user["username"]}!'
             else:
                 # Inloggning misslyckades, skicka http status 401 (Unauthorized)
-                return ('Ogiltigt användarnamn eller lösenord', 401)
+                flash('Ogiltigt användarnamn eller lösenord')
+                return render_template('login.html'), 401
 
             # # Fråga för att kontrollera om användare finns med matchande användarnamn
             # # TODO: anropa databasen och hämta resultatet med cursor.fetchone() se https://www.geeksforgeeks.org/dbms/querying-data-from-a-database-using-fetchone-and-fetchall/
