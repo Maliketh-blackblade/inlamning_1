@@ -1,0 +1,22 @@
+2025-10-24 14:26:26,026 INFO: Flask Error Handling Demo startup [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:53]
+2025-10-24 14:26:26,644 INFO: Flask Error Handling Demo startup [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:53]
+2025-10-24 14:26:33,497 WARNING: 404 error: http://127.0.0.1:5000/static/pictures/favicon.ico [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:68]
+2025-10-24 14:26:36,490 WARNING: 404 error: http://127.0.0.1:5000/loginyvhuyugygu [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:68]
+2025-10-24 14:27:33,541 WARNING: Someone accessed the /trigger-500 route [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:59]
+2025-10-24 14:27:33,542 ERROR: Unhandled exception: division by zero [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:82]
+Traceback (most recent call last):
+  File "C:\Users\Elev\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Elev\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py", line 61, in trigger_500
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+2025-10-24 14:27:43,439 WARNING: 404 error: http://127.0.0.1:5000/trigger_500 [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:68]
+2025-10-24 14:29:22,605 INFO: Flask Error Handling Demo startup [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:53]
+2025-10-24 14:29:23,152 INFO: Flask Error Handling Demo startup [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:53]
+2025-10-24 14:29:32,951 WARNING: 404 error: http://127.0.0.1:5000/static/pictures/favicon.ico [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:68]
+2025-10-24 14:29:37,465 WARNING: 404 error: http://127.0.0.1:5000/loginybuhbgeruib [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:68]
+2025-10-24 14:29:37,572 WARNING: 404 error: http://127.0.0.1:5000/static/images/404.gif [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:68]

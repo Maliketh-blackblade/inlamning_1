@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <link rel="shortcut icon" href="/static/pictures/favicon.ico" type="image/x-icon">
+        <title>COLLECTION</title>
+    </head>
+    <body>
+        <div class="holder"> 
+            <h1 class="center">Collection page</h1>
+            {% block nav %}
+                <nav>
+                    <ul class="center">
+                        <a href="/" class="button"></a>
+                        <a href="/" class="button"></a>
+                        <a href="/" class="button"></a>
+                    </ul>
+                </nav>
+            <hr>
+            {% endblock %}
+            {% block content %}
+            {% endblock %}
+        </div>
+    </body>
+</html>
