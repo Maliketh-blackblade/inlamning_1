@@ -20,3 +20,7 @@ ZeroDivisionError: division by zero
 2025-10-24 14:29:32,951 WARNING: 404 error: http://127.0.0.1:5000/static/pictures/favicon.ico [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:68]
 2025-10-24 14:29:37,465 WARNING: 404 error: http://127.0.0.1:5000/loginybuhbgeruib [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:68]
 2025-10-24 14:29:37,572 WARNING: 404 error: http://127.0.0.1:5000/static/images/404.gif [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:68]
+2025-10-24 14:33:18,403 INFO: Flask Error Handling Demo startup [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:53]
+2025-10-24 14:33:18,993 INFO: Flask Error Handling Demo startup [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:53]
+2025-10-24 14:33:27,691 WARNING: 404 error: http://127.0.0.1:5000/loginjiuite [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:68]
+2025-10-24 14:34:53,381 WARNING: 404 error: http://127.0.0.1:5000/loginjiuite [in C:\Users\Elev\Documents\Webbserverprogrammering\inlamning_1\app.py:68]
